@@ -14,6 +14,11 @@ namespace GHelp.Controllers
             return View();
         }
 
+        public ActionResult Contexto()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -28,4 +33,6 @@ namespace GHelp.Controllers
             return View();
         }
     }
+
+
 }
